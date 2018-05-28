@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Артем Баулин](https://up.htmlacademy.ru/htmlcss/21/user/807821).
-* Наставник: Николай Думчев.
+* Наставник: [Николай Думчев] (https://htmlacademy.ru/profile/nikopol_fw).
 
 ---
 
