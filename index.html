@@ -270,8 +270,17 @@
 
     <section class="modal modal-contact">
       <h2 class="visually-hidden">Форма обратной связи</h2>
-      <button type="button" class="modal-close">X</button>
-      <!--Форма-->
+      <button type="button" class="modal-close" name="close" value="Закрыть">X</button>
+      <form method="post">
+        <label for="name-field">Ваше имя:</label><br>
+        <input id="name-field" type="text" name="name" value="Имя Фамилия"><br>
+
+        <label for="email-field">Ваш e-mail:</label><br>
+        <input id="email-field" type="email" name="e-mail" value="email@example.com"><br>
+
+        <label for="text-field">Текст письма:</label><br>
+        <textarea id="text-field" name="text">В свободной форме</textarea>
+      </form>
       <button type="submit" method="post" class="button">Отправить</button>
     </section>
 
