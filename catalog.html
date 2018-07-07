@@ -54,8 +54,31 @@
       </ul>
 
       <section class="filter">
-        <h2 class="visually-hidden">Фильтр товаров</h2>
+        <h2>Фильтр:</h2>
         <!--Форма-->
+        <form>
+          <hr>
+          <label for="price">Стоимость</label>
+          <input type="range" name="price">
+          <hr>
+          Цвет
+          <ul>
+            <li><input type="checkbox" name="black">Черный</li>
+            <li><input type="checkbox" name="white">Белый</li>
+            <li><input type="checkbox" name="blue">Синий</li>
+            <li><input type="checkbox" name="red">Красный</li>
+            <li><input type="checkbox" name="pink">Розовый</li>
+          </ul>
+
+          <hr>
+          Bluetooth
+          <ul>
+            <li><input type="radio" name="Bluetooth" value="yes">Есть</li>
+            <li><input type="radio" name="Bluetooth" value="no">Нет</li>
+          </ul>
+
+          <button type="button" class="button">Показать</button>
+        </form>
       </section>
 
       <section class="sorting">
